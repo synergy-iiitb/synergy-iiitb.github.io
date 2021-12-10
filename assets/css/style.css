@@ -22,19 +22,25 @@
     1. COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #777777;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+}
 
 * {
   margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
+  padding: 0; 
+   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
 
 img {
   max-width: 100%; }
@@ -591,20 +597,28 @@ p {
 
 /*===== Header =====*/
 .header-content-area {
-  height: 750px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  position: relative;
-  overflow: hidden; }
+  height: 100vh;
+  width:100vw;
+  /* border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
+  position: absolute;
+  /* overflow: hidden; 
+  padding-left: 0;
+  margin-left: 0; */
+  left:0;
+}
   @media only screen and (min-width: 1400px) {
     .header-content-area {
-      height: 850px; } }
+        height: 100vh;
+ } }
   @media (max-width: 767px) {
     .header-content-area {
-      height: 650px; } }
+        height: 100vh;
+ } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-content-area {
-      height: 550px; } }
+        height: 100vh;
+ } }
   .header-content-area::before {
     position: absolute;
     content: '';
