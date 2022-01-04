@@ -22,25 +22,19 @@
     1. COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
-html {
-  height: 100%;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #777777;
-  overflow-x: hidden; 
-}
+  overflow-x: hidden; }
 
 * {
   margin: 0;
   padding: 0; 
-   -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-
 
 img {
   max-width: 100%; }
@@ -597,19 +591,21 @@ p {
 
 /*===== Header =====*/
 .header-content-area {
-  height: 100vh;
-  width:100vw;
-  /* border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px; */
-  position: absolute;
-  /* overflow: hidden; 
-  padding-left: 0;
-  margin-left: 0; */
-  left:0;
+  /* height: 100vh;
+  width:100vw; */
+  height: 750px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  /* position: absolute; */
+  position: relative;
+  overflow: hidden; 
+  /* padding-left: 0;
+  margin-left: 0;
+  left:0; */
 }
   @media only screen and (min-width: 1400px) {
     .header-content-area {
-        height: 100vh;
+        height: 850px;
  } }
   @media (max-width: 767px) {
     .header-content-area {
@@ -626,9 +622,10 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: -webkit-linear-gradient(left, rgba(16, 43, 175, 0.2) 0%, rgba(22, 100, 255, 0.2) 100%);
-    background: -o-linear-gradient(left, rgba(16, 43, 175, 0.2) 0%, rgba(22, 100, 255, 0.2) 100%);
-    background: linear-gradient(to right, rgba(16, 43, 175, 0.2) 0%, rgba(22, 100, 255, 0.2) 100%); }
+    /* background: -webkit-linear-gradient(left, rgba(16, 43, 175, 0.1) 0%, rgba(22, 100, 255, 0.1) 100%);
+    background: -o-linear-gradient(left, rgba(16, 43, 175, 0.1) 0%, rgba(22, 100, 255, 0.1) 100%);
+    background: linear-gradient(to right, rgba(16, 43, 175, 0.1) 0%, rgba(22, 100, 255, 0.1) 100%);  */
+  }
 
 .header-countdown .single-count-content {
   padding: 0 45px;
@@ -767,7 +764,15 @@ p {
 ===========================*/
 .event-tab {
   border: 3px solid rgba(24, 99, 255, 0.1);
-  padding: 40px 70px; }
+  background-color: #e5e5f7;
+  opacity: 0.9;
+  background:
+radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+background-color: slategray;
+background-size:75px 100px;
+  padding: 40px 70px; 
+}
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .event-tab {
       padding: 40px; } }
@@ -785,7 +790,7 @@ p {
   .event-tab .nav .nav-item a {
     text-align: center;
     width: 225px;
-    border: 3px solid rgba(24, 99, 255, 0.1);
+    border: 3px solid rgba(24, 97, 255, 0.616);
     padding: 15px 0;
     position: relative;
     z-index: 5; }
@@ -804,7 +809,7 @@ p {
       text-transform: uppercase;
       font-size: 24px;
       font-weight: 600;
-      color: #777777;
+      color: #1b273d;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -818,7 +823,7 @@ p {
           font-size: 18px; } }
     .event-tab .nav .nav-item a span {
       font-size: 16px;
-      color: #777777;
+      color: #1b273d;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -1505,4 +1510,39 @@ p {
   display: none; }
   .back-to-top:hover {
     color: #fff;
-    background-position: right center; }
+    background-position: right center; 
+}
+
+.event-border{
+  border: 6px solid rgba(255, 255, 255, 0.651);
+  border-radius: 3px;
+  box-shadow: rgb(0, 0, 0) 0px 7px 29px 0px;
+}
+
+.schedule-event
+{
+	background: linear-gradient(-45deg, rgb(1, 12, 66), rgb(18, 47, 192), rgb(104, 19, 173), rgb(61, 11, 95));
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	/* height: 100vh; */
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.schedule-event-description
+{
+  background:none;
+  background-color: #ffffff;
+}
+.schedule-event-body{
+  background-size:100%;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 2px, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+}
