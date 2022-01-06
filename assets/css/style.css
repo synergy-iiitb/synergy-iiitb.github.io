@@ -764,13 +764,13 @@ p {
 ===========================*/
 .event-tab {
   border: 3px solid rgba(24, 99, 255, 0.1);
-  background-color: #e5e5f7;
+  /* background-color: #e5e5f7;
   opacity: 0.9;
   background:
 radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
 radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
 background-color: slategray;
-background-size:75px 100px;
+background-size:75px 100px; */
   padding: 40px 70px; 
 }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -790,7 +790,7 @@ background-size:75px 100px;
   .event-tab .nav .nav-item a {
     text-align: center;
     width: 225px;
-    border: 3px solid rgba(24, 97, 255, 0.616);
+    border: 3px solid rgba(24, 99, 255, 0.1);
     padding: 15px 0;
     position: relative;
     z-index: 5; }
