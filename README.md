@@ -1,1 +1,1 @@
-# techfest-IIITB-22
+# Synergy-IIITB-22
