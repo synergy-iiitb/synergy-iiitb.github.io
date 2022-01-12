@@ -42,7 +42,7 @@
 
 </head>
 
-<body >
+<body>
 
     <!--====== PRELOADER PART START ======-->
 
@@ -67,7 +67,7 @@
 
     <!--====== HEADER PART START ======-->
     
-    <header class="header-area" id="header_back">    
+    <header class="header-area" id="header_back" style="background-image: url(./assets/images/bg2.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">    
         <div class="navbar-area navbar-two">
             <div class="container"  >
                 <div class="row">
@@ -120,9 +120,6 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div data-countdown="2022/02/18" style="text-shadow: 2px 2px #00000094;"></div>
-                        <!-- <div>
-                            <img style=" display:inline-block; width: 300px; vertical-align: middle; vertical-align: middle; float: right;" src="./assets/images/robot_search.png"> 
-                        </div> -->
                         <div class="header-content text-center">
                             
                             <h2 class="header-title" style="text-shadow: 4px 4px #00000094;">Synergy 2022</h2>
@@ -229,7 +226,7 @@
     <!--====== EVENT SCHEDULE PART START ====== -->
     <section id="event"  class="event-schedule pt-115 pb-130">
 
-        <div  id="d2" class="container" >
+        <div class="container" style="background-color: white;">
             <div class="row justify-content-center">
                 <div class="col-lg-8" >
                     <div class="section-title text-center">
@@ -301,29 +298,8 @@
                                                 <li>9th February 2022</li>
                                                 <li>Start: 6.00 PM</li>
                                                 <li>End: 8.00 PM</li>
-                                                <!-- <a href="schedules/schedule1.html">Know More</a> -->
-                                                <!-- <a href="#modal" role="button" class="button button__link">Modal Trigger</a>
-                                                <!-- Modal -->
-                                          
-                                                <!-- onclick="document.getElementById('d2').style.zIndex='4';" -->
-                                                <!-- <div class="modal-wrapper" style="z-index: 5;"  id="modal">
-                                                    <div class="modal-body card">
-                                                        <div class="modal-header">
-                                                            <h2 class="heading">Modal Header</h2>
-                                                            <a href="#!" role="button" class="close" aria-label="close this modal">
-                                                                <svg viewBox="0 0 24 24">
-                                                                    <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
-                                                                </svg>
-                                                            </a>
-                                                        </div>
-                                                        <p>Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.Simple example using the selector to open a modal.</p>
-                                                    </div>
-                                                    <a href="#!" class="outside-trigger"></a>
-                                                </div> -->
-                                            
                                             </ul>
                                         </div>
-                                        <!-- <a href="./schedules/schedule1.html">Know More</a> -->
                                     </div> <!-- single event --->
                                     <div  class="single-event d-md-flex mt-30">
                                         <div class="event-image">
@@ -336,25 +312,10 @@
                                                 <li>10th February 2022</li>
                                                 <li>Start: 6.00 PM</li>
                                                 <li>End: 8.00 PM</li>
-                                                <!-- <a href="#modal1" role="button" onclick="document.getElementById('d2').style.zIndex='3';" class="button button__link">Modal Trigger</a>
-                                                <!-- Modal -->
-                                          
-                                                
-                                                <!-- <div class="modal-wrapper" style="z-index: 6;"  id="modal1">
-                                                    <div class="modal-body card">
-                                                        <div class="modal-header">
-                                                            <h2 class="heading">Modal Header</h2>
-                                                            <a href="#!" role="button" class="close" aria-label="close this modal">
-                                                                <svg viewBox="0 0 24 24">
-                                                                    <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
-                                                                </svg>
-                                                            </a>
-                                                        </div>
-                                                        <p>Choosko</p>
-                                                    </div>
-                                                    <a href="#!" class="outside-trigger"></a> -->
+
                                                 <!-- <li>Location: Hall 1 , Building A, Golden Street, Southafrica</li> -->
                                             </ul>
+                                            <!-- <a href="./schedules/schedule1.html" >Know </a> -->
                                         </div>
                                     </div> <!-- single event -->
                                 </div> <!-- event content --->
@@ -1381,61 +1342,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.rings.min.js"></script>
 
-    <script>
-        var effect =  VANTA.WAVES({
-        el: "#header_back",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0x270088,
-        shininess: 20.00,
-        waveHeight: 19.00,
-        waveSpeed: 0.90,
-        zoom: 1.2
-    })
-
-    
-    // VANTA.TOPOLOGY({
-    //     el: "#main_event_schedule",
-    //     mouseControls: true,
-    //     touchControls: true,
-    //     gyroControls: false,
-    //     minHeight: 200.00,
-    //     minWidth: 200.00,
-    //     scale: 1.00,
-    //     scaleMobile: 1.00
-    // })
-
-    VANTA.RINGS({
-  el: "#main_event_schedule",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00
-})
-
-    elem = $("#header_back")[0];
-
-    let resizeObserver = new ResizeObserver(() => {
-        effect.resize();
-        console.log("The element was resized");
-    });
-
-    resizeObserver.observe(elem);
-    
-    </script>
 </div>
 </body>
 
