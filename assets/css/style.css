@@ -31,9 +31,8 @@ body {
 
 }
 body::before {
-  background-image: url('../images/bg2.jpg');
+  background-image: url('../images/bg5.jpg');
   background-repeat: no-repeat;
-  
   background-position: center top;
   background-size: cover;
   content: '';
@@ -48,6 +47,19 @@ body::before {
 .main_event_timeline body{
   filter:blur(8px);
 }
+.data-countdown-div
+{
+  text-shadow: 3px 3px #000000b2;
+}
+
+@media (max-width: 767px) {
+  .data-countdown-div
+  {
+    text-shadow: 2px 2px #000000b2;
+  }
+}
+
+
 
 * {
   margin: 0;
@@ -698,6 +710,7 @@ p {
   .header-content .header-title {
     font-size: 75px;
     color: #fff;
+    text-shadow: 4px 4px #000000;
      }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .header-content .header-title {
@@ -707,6 +720,7 @@ p {
         font-size: 54px; } }
     @media (max-width: 767px) {
       .header-content .header-title {
+        text-shadow: 2px 2px #000000b2;
         font-size: 30px; } }
   .header-content .sub-title {
     font-size: 30px;
@@ -738,17 +752,17 @@ p {
 .about-image img {
   width: 100%; }
 
-.about-content .date {
+.header-content .date {
   font-size: 18px;
   font-weight: 600;
   color: #1b273d;
   margin-top: 45px; }
-  .about-content .date span {
+  .header-content .date span {
     font-size: 30px;
-    color: #1863ff;
+    color: #ffffff;
     position: relative;
     padding-left: 15px; }
-    .about-content .date span::before {
+    .header-content .date span::before {
       position: absolute;
       content: '';
       width: 55px;
@@ -1542,11 +1556,36 @@ background-size:75px 100px; */
   height: 100%;
 }
 
+.team-body{
+  overflow: hidden; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
 
-@media only screen and (min-width: 1400px) {
-  .schedule-event-body {
-      /* height: 1000px; */
-} }
+.team-body::before {
+  background-image: url('../images/team_bg4.png');
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  content: '';
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
 .schedule-event-body::before {
   background-image: url('../images/bg_event2.png');
   
@@ -1653,13 +1692,13 @@ background-size:75px 100px; */
   line-height: 1.4;
   text-transform: uppercase;
   font-weight: 600;
-  color: #9251ac;
+  color: #d881fa;
   letter-spacing: 1.5px;
 }
 .timeline__event__content {
   padding: 20px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  background: #fff;
+  background-color: rgba(30, 30, 30, 0.87);
   width: calc(40vw - 84px);
   border-radius: 0 6px 6px 0;
 }
@@ -1739,7 +1778,7 @@ background-size:75px 100px; */
   background: #87bbfe;
 }
 .timeline__event--type2 .timeline__event__title {
-  color: #555ac0;
+  color: #1f2bff;
 }
 .timeline__event--type3:after {
   background: #24b47e;
@@ -1759,7 +1798,7 @@ background-size:75px 100px; */
   background: #aff1b6;
 }
 .timeline__event--type3 .timeline__event__title {
-  color: #24b47e;
+  color: #23da96;
 }
 .timeline__event:last-child .timeline__event__icon:before {
   content: none;
