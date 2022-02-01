@@ -2034,9 +2034,7 @@ code {
   width: 100%;
   font-size: 0.9rem;
 }
-.blog-card .details a {
-  text-decoration: dotted underline;
-}
+
 .blog-card .details ul li {
   display: inline-block;
 }
@@ -2090,7 +2088,7 @@ code {
   position: relative;
 }
 .blog-card .description .read-more a:after {
-  content: "\f061";
+  /* content: "\f061"; */
   
   margin-left: -10px;
   opacity: 0;
