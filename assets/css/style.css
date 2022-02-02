@@ -2280,7 +2280,7 @@ background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rg
 
   margin-bottom: 4rem;
   padding-bottom: 4rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+  border-bottom: 1px solid hsla(0, 0%, 100%, .6);
 }
 
 .modal__title {
