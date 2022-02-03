@@ -1867,8 +1867,7 @@ code {
   position: relative;
   z-index: 1;
 }
-.blog-card .description h1, .blog-card .description h2 {
-}
+
 .blog-card .description h1 {
   line-height: 1;
   margin: 0;
@@ -2166,10 +2165,10 @@ code {
 
 .popup-inner {
   /* background-color: rgba(255, 255, 255, 0.87); */
-  /* background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(217,220,238,1) 54%, rgba(237,188,188,1) 100%); */
-  background: rgb(115,0,20);
-background: linear-gradient(90deg, rgba(115,0,20,1) 0%, rgba(33,81,115,1) 51%, rgba(0,2,79,1) 100%);
+  background: rgb(113,13,13);
+background: linear-gradient(90deg, rgba(113,13,13,1) 0%, rgba(91,22,55,1) 41%, rgba(1,29,88,1) 100%);
+  /* background: rgb(115,0,20);
+background: linear-gradient(90deg, rgba(115,0,20,1) 0%, rgba(33,81,115,1) 51%, rgba(0,2,79,1) 100%); */
 /* background: rgb(140,5,5);
 background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rgba(0,74,128,1) 100%); */
 
@@ -2280,7 +2279,7 @@ background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rg
 
   margin-bottom: 4rem;
   padding-bottom: 4rem;
-  border-bottom: 1px solid hsla(0, 0%, 100%, .6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.616);
 }
 
 .modal__title {
