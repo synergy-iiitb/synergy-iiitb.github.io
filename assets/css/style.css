@@ -2310,7 +2310,7 @@ background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rg
 
 
 .profile-body{
-  margin: 25px;
+  margin: 20px;
   }
   
   .profilet {
@@ -2319,13 +2319,15 @@ background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rg
   margin-right: auto;
   border-radius: 25px;
   background-color: #ddd;
+  
   padding: 20px;
+  
   z-index: 0;
   }
   
   .profile-body .photo {
       margin: 25px;
-  
+
   }
   
   .image--cover {
@@ -2351,19 +2353,9 @@ background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rg
       margin: 1px;
   }
   
-  .username {
-   
+  .profitet .username {
       font-size: 20pt;
-      margin: 2px
-  }
-  
-  .profession {
-      font-size: 14pt;
-  }
-  
-  .locationname {
-      font-size: 14pt;
-      margin: 2px
+      margin: 2px;
   }
   
   .descricao {
@@ -2374,3 +2366,14 @@ background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rg
   }
   
   
+@media (max-width: 767px) {
+  .profile-body{
+    margin: 5px;
+  }
+    
+  .profilet {
+    padding: 5px;
+    padding-top: 20px;
+  }
+
+}
