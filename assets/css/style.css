@@ -2379,45 +2379,44 @@ background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rg
 }
 
 
-/* CSS */
-.button-46 {
-  align-items: center;
-  background-color: rgba(240, 240, 240, 0.26);
-  border: 1px solid #DFDFDF;
-  border-radius: 16px;
-  box-sizing: border-box;
-  color: #000000;
+.button_slide {
+  color: #FFF;
+  border: 2px solid #ffffff;
+  border-radius: 0px;
+  background-color: blanchedalmond;
+  background: 
+  /* On "top" */
+  repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(17, 42, 184, 0) 10px,
+    rgba(255, 255, 255, 0)0px
+  ),
+  /* on "bottom" */
+  linear-gradient(
+    to bottom,
+    rgb(141, 17, 17),
+    rgb(37, 13, 146)
+  );
+  padding: 18px 36px;
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 1px;
   cursor: pointer;
-  /* display: flex; */
-  font-family: Inter, sans-serif;
-  font-size: 18px;
-  justify-content: center;
-  line-height: 28px;
-  /* max-width: 100%; */
-  padding: 14px 22px;
-  text-decoration: none;
-  transition: all .2s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  /* width: 100%; */
+  box-shadow: inset 0 0 0 0 rgb(174, 186, 240);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_diagonal:hover {
+  box-shadow: inset 400px 50px 0 0 rgb(174, 186, 240);
+  color:black
+}
+
+#outer {
+  width: 364px;
+  margin: 50px auto 0 auto;
   text-align: center;
-}
-
-.button-46:active,
-.button-46:hover {
-  outline: 0;
-}
-
-.button-46:hover {
-  background-color: #FFFFFF;
-  border-color: rgba(0, 0, 0, 0.19);
-}
-
-@media (min-width: 768px) {
-  .button-46 {
-    font-size: 20px;
-    min-width: 200px;
-    padding: 14px 16px;
-  }
 }
