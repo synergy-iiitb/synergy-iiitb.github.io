@@ -2420,3 +2420,13 @@ background: linear-gradient(90deg, rgba(140,5,5,1) 0%, rgba(63,99,144,1) 51%, rg
   margin: 50px auto 0 auto;
   text-align: center;
 }
+  
+@media (max-width: 767px) {
+  #outer{
+    width: 200px;
+  }
+  .button_slide{
+    padding: 9px 18px;
+    font-size:17px;
+  }
+}
