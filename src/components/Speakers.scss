@@ -1,0 +1,43 @@
+.cards {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    //width: 100%;
+    gap: 3.6em;
+    // margin-left: 108px;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
+.speakerHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 138px;
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //margin-left: 15vw;
+    //margin-right: 14vw;
+    margin-top: 10vw;  
+}
+
+.icon {
+    height: 3vw;
+    width: 3vw;
+    margin-right: 1vw;
+}
+
+.wrapper{
+    scrollbar-color: transparent transparent;
+}
+
+
