@@ -1,0 +1,26 @@
+.faq-wrapper{
+    margin-bottom: 15px;
+    background-color: black !important;
+}
+
+.faq-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12vmin;
+    line-height: 138px;
+    margin-left: 1.5vw;
+    @media(max-width : 767px){
+        font-size: 12vmin;
+        text-align: center;
+    }
+}
+
+.accordion-flush{
+    background-color: black !important;
+    box-shadow: none !important;
+}
+.homeac{
+    background-color: black !important;
+    width: 100% !important;
+}

@@ -1,0 +1,132 @@
+.footer {
+    background: #1d1c1c;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 10vh;
+
+    @media(max-width : 767px){
+        padding-top: 4vh;
+    }
+
+    .mobile {
+        // RED BORDER
+        // only left border with height of 20 px
+        border-left: 2px solid white;
+
+        // translate x by 10px
+        transform: translateX(-10px);
+        transform: translateY(-15px);
+        font-family: 'Poppins', 'sans-serif';
+
+    }
+
+    .footer-content {
+        margin: 0 30px;
+        .footer-logo {
+            // make element inline
+            display: inline-block;
+            padding-right: 15px;
+            font-weight: 700;
+            font-size: 48px;
+
+            @media (max-width:863px) {
+                font-size: 40px;
+            }
+        }
+
+        .footer-c {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            margin-top: 2vmin;
+        }
+
+        .footer-heading {
+            font-weight: 600;
+            font-size: 5vw;
+            color: rgb(240,240,240);
+            @media (max-width:863px) {
+                font-size: 55px;
+            }
+        }
+
+        .footer-subheading {
+            font-weight: 700;
+            font-size: 3.7vw;
+            margin-top: -12px;
+            color: rgb(240,240,240);
+            @media (max-width:863px) {
+                font-size: 42px;
+            }
+        }
+
+        .footer-icon {
+            padding-left: 0.5em;
+
+            @media (max-width:1308px) {
+                padding-right: 2em;
+                padding-left: 0;
+            }
+
+        }
+
+        .handles-sub {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 26px;
+            margin-top: 15px;
+            text-align: center;
+
+            @media (max-width:1308px) {
+                display: none;
+            }
+        }
+
+        .foot-icon-list {
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+
+        .ra-icon {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.icons__wrapper {
+    margin-top: 40px;
+}
+
+.icons__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+
+    &-icons {
+        margin-top: 10px;
+    }
+
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.synergyfooter{
+    width: 25vmax;
+    // @media(max-width:400px)
+    // {
+    //     width: 200vw;
+    // }
+}
+
+.iiitbfooter{
+    width: 10vmax;
+}
+
+// .socialHandles{
+//     margin-left: 4vw;
+// }
