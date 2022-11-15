@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/synergy-iiitb.github.io/static/css/main.0643aac8.css",
-    "main.js": "/synergy-iiitb.github.io/static/js/main.7a7e0a2f.js",
-    "static/js/787.cebeec51.chunk.js": "/synergy-iiitb.github.io/static/js/787.cebeec51.chunk.js",
-    "static/media/FlowField_dummy.png": "/synergy-iiitb.github.io/static/media/FlowField_dummy.f3feb7b1a9037bdcf8f8.png",
-    "static/media/iiitblogo.png": "/synergy-iiitb.github.io/static/media/iiitblogo.727ebc03f0f9c66ec90f.png",
-    "static/media/synergy-footer.svg": "/synergy-iiitb.github.io/static/media/synergy-footer.6206958fb870a0ea9583323bd9091f66.svg",
-    "index.html": "/synergy-iiitb.github.io/index.html",
-    "static/media/synergy-nav.svg": "/synergy-iiitb.github.io/static/media/synergy-nav.6a48afced3376dbc3ef94aa871ea62d6.svg",
-    "main.0643aac8.css.map": "/synergy-iiitb.github.io/static/css/main.0643aac8.css.map",
-    "main.7a7e0a2f.js.map": "/synergy-iiitb.github.io/static/js/main.7a7e0a2f.js.map",
-    "787.cebeec51.chunk.js.map": "/synergy-iiitb.github.io/static/js/787.cebeec51.chunk.js.map"
+    "main.css": "/static/css/main.6d9ed3f5.css",
+    "main.js": "/static/js/main.0c3120b6.js",
+    "static/js/787.cebeec51.chunk.js": "/static/js/787.cebeec51.chunk.js",
+    "static/media/FlowField_dummy.png": "/static/media/FlowField_dummy.f3feb7b1a9037bdcf8f8.png",
+    "static/media/iiitblogo.png": "/static/media/iiitblogo.727ebc03f0f9c66ec90f.png",
+    "static/media/synergy-footer.svg": "/static/media/synergy-footer.6206958fb870a0ea9583323bd9091f66.svg",
+    "index.html": "/index.html",
+    "static/media/synergy-nav.svg": "/static/media/synergy-nav.6a48afced3376dbc3ef94aa871ea62d6.svg",
+    "main.6d9ed3f5.css.map": "/static/css/main.6d9ed3f5.css.map",
+    "main.0c3120b6.js.map": "/static/js/main.0c3120b6.js.map",
+    "787.cebeec51.chunk.js.map": "/static/js/787.cebeec51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0643aac8.css",
-    "static/js/main.7a7e0a2f.js"
+    "static/css/main.6d9ed3f5.css",
+    "static/js/main.0c3120b6.js"
   ]
 }
