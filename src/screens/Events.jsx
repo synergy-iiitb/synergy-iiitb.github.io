@@ -5,6 +5,7 @@ import './Events.scss'
 import Comingsoon from "./Comingsoon";
 
 function Events(){
+    
     return (
     <div className="Events">
         <Comingsoon />
