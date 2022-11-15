@@ -1,0 +1,53 @@
+@-moz-document url-prefix() {
+    html,
+    body {
+      scrollbar-width: none;
+    }
+  }
+
+  body {
+    @media(max-width : 767px){
+      position: relative;
+      overflow-x : hidden;
+    }
+  }
+  html{
+    @media(max-width : 767px){
+      overflow-x : hidden;
+    }
+  }
+
+.App {
+    background: black;
+    color: white;
+    overflow-x: hidden;
+    -ms-overflow-style : none;
+    scrollbar-width: none;
+    padding: 0;
+}
+.App::-webkit-scrollbar{
+  display: none;
+}
+
+.about_us_section {
+    margin-bottom: 20vh;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.emptybox{
+  min-height: 10vmin;
+}
+
+.appcont{
+  margin: 0;
+  padding : 0;
+}
+
+.approw,.appcol{
+  margin : 0;
+}
+

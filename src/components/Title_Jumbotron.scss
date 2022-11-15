@@ -1,0 +1,105 @@
+.title_background {
+    height: 100vh;
+    background-image:
+        linear-gradient(108.86deg, #000000 14.66%, rgba(0, 0, 0, 0.921875) 14.66%, rgba(0, 0, 0, 0.744296) 50.03%, rgba(0, 0, 0, 0) 61.17%),url('../assets/FlowField_dummy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media(max-width:767px)
+    {
+        background-image:
+        linear-gradient(359.93deg, #000000 6.9%, rgba(0, 0, 0, 0) 65.51%),
+        url('../assets/FlowField_dummy.png');
+    }
+    overflow-x: hidden;
+}
+
+.empty_space_title {
+    height: 12vh;
+}
+
+.synergy_is,
+.back_dot {
+    padding-left: 6vw;
+}
+
+
+.synergy_is_text,
+.back_dot_text {
+    white-space: pre-line;
+    color: white;
+    text-align: left;
+    font-size: 17vmin;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.back_dot_text {
+    font-weight: 700;
+}
+
+.dot_color {
+    color: #BE00D7;
+}
+
+.intro_text {
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    color: rgba($color: #ffffff, $alpha: 0.7);
+    font-size: 3.2vmin;
+    padding-top: 2em;
+    @media(max-width: 767px)
+    {
+        font-size: 4vw;
+    }
+}
+
+.icon_col {
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.down_arrow_icon {
+    height: 6vmin;
+    width: 6vmin;
+    color: rgba($color: #ffffff, $alpha: 0.8);
+    @media(max-width:767px)
+    {   
+        margin-left: 8vw;
+        height: 5vh;
+        width: auto;
+        margin-bottom: 4vh;
+    }
+}
+
+.down_arrow_icon_span {
+    margin-top: 5vmin;
+    height: fit-content;
+    width: fit-content;
+    padding: 2vmin;
+}
+
+.icon-bt-row {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 3px;
+}
+
+
+.navlogo{
+    height: 6vmin;
+}
+.title_tex{
+    @media(max-width:767px)
+    {
+        position: absolute;
+        top:18vh;
+    }
+    @media(max-width:400px)
+    {
+        position: absolute;
+        top:36vw;
+    }
+}

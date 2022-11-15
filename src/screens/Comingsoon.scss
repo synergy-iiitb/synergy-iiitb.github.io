@@ -1,0 +1,85 @@
+.title_background1 {
+    height: 100vh;
+    background-image:
+    radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 57.29%, rgba(0, 0, 0, 0) 100%),url('../assets/FlowField_dummy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media(max-width:767px)
+    {
+        background-image:
+        linear-gradient(359.93deg, #000000 6.9%, rgba(0, 0, 0, 0) 65.51%),
+        url('../assets/FlowField_dummy.png');
+    }
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.empty_space_title1 {
+    height: 27vh;
+}
+
+
+
+.synergy_is1{
+    padding-left: 0vw;
+}
+
+.synergy_is_text1{
+    white-space: pre-line;
+    color: white;
+    text-align: left;
+    font-size: 15vmin;
+    font-weight: 600;
+    letter-spacing: 3vmin;
+}
+
+.synergy_is_text2{
+    white-space: pre-line;
+    color: white;
+    text-align: right;
+    font-size: 15vmin;
+    font-weight: 600;
+    letter-spacing: 3vmin;
+}
+.textcenter{
+    text-align: center;
+}
+.desc{
+    color: rgba($color: #ffffff, $alpha: 0.7);
+    font-size: 3.2vmin;
+    font-family: 'Poppins';
+    @media(max-width: 767px)
+    {
+        font-size: 4vw;
+    }
+    text-align: right;
+}
+
+
+
+.topcoming{
+    color: #ffffff;
+    font-size: 4vmin;
+    font-family: 'Poppins';
+    @media(max-width: 767px)
+    {
+        font-size:4.5vmin;
+    }
+}
+
+.contactuscom{
+    color: white;
+    font-size: 3.7vmin;
+    font-family: 'Poppins';
+}
+
+.socialrow{
+    padding-top: 2vw;
+}
+
+.mobilesocial{
+    visibility: hidden;
+    @media(max-width: 767px){
+        visibility: visible;
+    }
+}
